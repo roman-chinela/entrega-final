@@ -1,0 +1,476 @@
+/* PORTADA */
+.fondo {
+    background-color: black;
+}
+
+
+
+.containerPortada {
+    background-image: url('imagenes/quirofanoTuneada.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.tituloIndex {
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    padding-top: 8rem;
+    padding-bottom: 1.5rem;
+}
+
+.subtituloIndex1 {
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.subtituloIndex2 {
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.bottonGroup2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5rem;
+}
+
+/* PRESENTACION */
+
+.fotoPortada {
+    width: 20%;
+    border-radius: 50%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    position: relative;
+    top: 10%;
+
+
+}
+
+.fila1 {
+    background-image: url("../imagenes/quirofanoPrest.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.fila2 {
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.fila3 {
+
+    color: black;
+    background-color: rgb(247, 240, 240);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.portafolio {
+    color: black;
+
+}
+
+.birrete {
+    color: black;
+
+}
+
+.item3 {
+    display: flex;
+
+
+
+}
+
+.item4 {
+    display: flex;
+
+
+}
+
+.bodypresentacion {
+    background-image: url('imagenes/quirofanoTuneada.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* PRESENTACION-ENLACE RELATIVO */
+
+.tituloFP {
+    color: antiquewhite;
+    font-size: 25px;
+    padding-left: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.tituloEP {
+    color: antiquewhite;
+    font-size: 25px;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+
+.item1Present {
+    color: antiquewhite;
+    font-size: 20px;
+    line-height: 25px;
+    padding-left: 1rem;
+
+
+}
+
+.item2Present {
+    color: antiquewhite;
+    font-size: 20px;
+    line-height: 25px;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+
+}
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 985px) {
+    .navbar-toggler-icon {
+        background-color: rgb(37, 37, 219);
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .fotoPortada {
+        width: 40%;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+}
+
+@media screen and (max-width: 548px) {
+    .item3 {
+        padding-left: 1.5rem;
+
+    }
+}
+
+@media screen and (max-width: 548px) {
+    .item4 {
+        padding-left: 1.5rem;
+
+    }
+}
+
+/* PRESTACIONES */
+.prestaciones {
+    color: antiquewhite;
+    border: 1px solid white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+
+
+}
+
+
+/* PRESTACIONES-ENLACE RELATIVO */
+.contenedorCirugia {
+    background-image: url('imagenes/quirofanoTuneada.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.fleboText p {
+    color: antiquewhite;
+    font-size: 20px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+}
+
+.fleboText h5 {
+    color: antiquewhite;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+
+.cardioText p {
+    color: antiquewhite;
+    font-size: 20px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+}
+
+.cardioText h5 {
+    color: antiquewhite;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.galeria {
+    color: antiquewhite;
+    font-size: 25pxs;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.carusel {
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+/* CONTACTATE */
+
+
+.contactateTitulo {
+    font-weight: bold;
+    display: grid;
+    grid-template-rows: 3rem 2.5rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    background-image: url('imagenes/quirofanoTuneada.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contactateTitulo h2 {
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+
+.wspp2 {
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+
+.gridContact {
+    background-image: url('imagenes/quirofanoTuneada.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    display: grid;
+    grid-template-areas:
+        "item1"
+        "item2"
+        "item3"
+        "item4"
+        "item5"
+        "item6"
+        "item7"
+}
+
+.item1c {
+    color: antiquewhite;
+    grid-area: item1;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.item2c {
+    color: antiquewhite;
+    grid-area: item2;
+    display: flex;
+    justify-content: center;
+    padding-left: 1rem;
+
+}
+
+.item3c {
+    color: antiquewhite;
+    grid-area: item3;
+    display: flex;
+    justify-content: center;
+    padding-left: 1rem;
+}
+
+.item4c {
+    grid-area: item4;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+
+.item4c p {
+    font-size: 15px;
+
+}
+
+.item5c {
+    color: antiquewhite;
+    grid-area: item5;
+    display: flex;
+    justify-content: center;
+}
+
+.item5c p {
+    font-size: 15px;
+
+}
+
+.item6c {
+    color: antiquewhite;
+    grid-area: item6;
+    display: flex;
+    justify-content: center;
+
+}
+
+.item7c {
+    grid-area: item7;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.formulario {
+    color: black;
+    background-color: rgb(235, 225, 225);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-form {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    background-color: rgb(245, 223, 223);
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 80%;
+    margin: 40px 0;
+    padding: 30px;
+}
+
+.header-form {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.fieldset {
+    padding: 1rem;
+}
+
+.form-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    color: antiquewhite;
+    background-color: black;
+    padding-bottom: 4rem;
+}
+
+.fondoFooter {
+    background-color: black;
+}
+
+.nosotros {
+    display: flex;
+    justify-content: center;
+
+}
+
+.contacto {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+
+}
+
+.wspp {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.instagram {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+.bottonGroup1 {
+    display: flex;
+    justify-content: end;
+    padding-top: 4rem;
+}
+
+/* enlaces */
+.volver {
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+
+}

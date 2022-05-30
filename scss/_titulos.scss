@@ -1,0 +1,9 @@
+@import 'listas';
+
+.flebotext{
+   h5 {
+    color: nth($colors, 3);
+    font-size: nth($sizes, 5);
+    font-family: nth($fonts, 1); }
+
+}
